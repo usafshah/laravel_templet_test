@@ -6,7 +6,7 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
-
+do u feel changes in code .......
 $uri = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
 );
@@ -16,7 +16,7 @@ $uri = urldecode(
 // application without having installed a "real" web server software here.
 if ($uri !== '/' && file_exists(__DIR__.'/public'.$uri)) {
     return false;
-    var abc =1;
 }
 
 require_once __DIR__.'/public/index.php';
+its fun to use github.....
